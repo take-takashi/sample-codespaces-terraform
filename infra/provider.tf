@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     aws = {
-      sousource = "hachicorp/aws"
-      versversion = "4.3.0"
+      source = "hachicorp/aws"
+      version = "4.3.0"
     }
   }
 }
