@@ -15,7 +15,14 @@ cd infra/
 terraform init
 ```
 
-# apply
+# 変化の確認
+
+```
+cd infra/
+terraform plan
+```
+
+# デプロイ
 
 ```
 cd infra/
